@@ -1,0 +1,40 @@
+{
+  "_instructions": "About section.",
+  "sectionTitle": "About Me",
+  "image": "assets/images/profile.jpg",
+  "paragraphs": [
+    "Audit and accounting professional with 2.5+ years of financial statement audit experience (statutory, internal and tax audit) and 4+ years in GAAP accounting, tax compliance and financial analysis across industries including FMCG, real estate, transportation, professional services and banking. Skilled in substantive testing, control testing, risk-based audit workpapers and data analytics using Excel, CaseWare IDEA and Alteryx.",
+    "Recent internal audit experience spanning IT, finance, accounting and HR functions, including risk and control matrix evaluation and remediation follow-up. Completing an MS in Audit & Advisory Services at DePaul University (GPA 3.52, expected Jan 2027); planning to pursue CPA licensure."
+  ],
+  "statistics": [
+    {
+      "icon": "fas fa-project-diagram",
+      "value": "11+",
+      "label": "Projects Completed",
+      "color": "#FF6B6B"
+    },
+    {
+      "icon": "fas fa-briefcase",
+      "value": "4+",
+      "label": "Years Experience",
+      "color": "#4ECDC4"
+    },
+    {
+      "icon": "fas fa-code",
+      "value": "26+",
+      "label": "Technologies",
+      "color": "#FFE66D"
+    },
+    {
+      "icon": "fas fa-award",
+      "value": "0+",
+      "label": "Certifications",
+      "color": "#A8DADC"
+    }
+  ],
+  "downloadCV": {
+    "text": "Download Resume",
+    "href": "assets/files/resume.pdf",
+    "icon": "fas fa-download"
+  }
+}

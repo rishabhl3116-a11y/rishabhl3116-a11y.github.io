@@ -1,0 +1,282 @@
+{
+  "_instructions": "Add your projects.",
+  "sectionTitle": "Featured Work",
+  "projects": [
+    {
+      "title": "Financial Error Detection",
+      "description": "Built automated audit tests to identify accounting errors, anomalies and irregularities in financial data.",
+      "longDescription": "Built automated audit tests to identify accounting errors, anomalies and irregularities in financial data.",
+      "category": "Software Development",
+      "technologies": [
+        "CaseWare IDEA"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": true,
+      "github": "",
+      "demo": "",
+      "links": {
+        "github": "",
+        "demo": "",
+        "live": ""
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "SEC Financial Statement Analysis",
+      "description": "Performed comparative financial statement analysis of consumer discretionary companies.",
+      "longDescription": "Performed comparative financial statement analysis of consumer discretionary companies.",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "",
+      "demo": "",
+      "links": {
+        "github": "",
+        "demo": "",
+        "live": ""
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "threathound",
+      "description": "Interactive application built for continuous learning",
+      "longDescription": "Interactive application built for continuous learning",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rishabhl3116-a11y/threathound",
+      "demo": "https://github.com/rishabhl3116-a11y/threathound",
+      "links": {
+        "github": "https://github.com/rishabhl3116-a11y/threathound",
+        "demo": "https://github.com/rishabhl3116-a11y/threathound",
+        "live": "https://github.com/rishabhl3116-a11y/threathound"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "config-rule-inspec-cis-audit-lambda",
+      "description": "Interactive application built for continuous learning",
+      "longDescription": "Interactive application built for continuous learning",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rishabhl3116-a11y/config-rule-inspec-cis-audit-lambda",
+      "demo": "https://github.com/rishabhl3116-a11y/config-rule-inspec-cis-audit-lambda",
+      "links": {
+        "github": "https://github.com/rishabhl3116-a11y/config-rule-inspec-cis-audit-lambda",
+        "demo": "https://github.com/rishabhl3116-a11y/config-rule-inspec-cis-audit-lambda",
+        "live": "https://github.com/rishabhl3116-a11y/config-rule-inspec-cis-audit-lambda"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "aws-iam-auditing",
+      "description": "Educational project for mastering software architecture",
+      "longDescription": "Educational project for mastering software architecture",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "HTML",
+        "Makefile",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#B19CD9",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rishabhl3116-a11y/aws-iam-auditing",
+      "demo": "https://github.com/rishabhl3116-a11y/aws-iam-auditing",
+      "links": {
+        "github": "https://github.com/rishabhl3116-a11y/aws-iam-auditing",
+        "demo": "https://github.com/rishabhl3116-a11y/aws-iam-auditing",
+        "live": "https://github.com/rishabhl3116-a11y/aws-iam-auditing"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "network_vuln_scanner",
+      "description": "Portfolio project showcasing development capabilities",
+      "longDescription": "Portfolio project showcasing development capabilities",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF8B94",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rishabhl3116-a11y/network_vuln_scanner",
+      "demo": "https://github.com/rishabhl3116-a11y/network_vuln_scanner",
+      "links": {
+        "github": "https://github.com/rishabhl3116-a11y/network_vuln_scanner",
+        "demo": "https://github.com/rishabhl3116-a11y/network_vuln_scanner",
+        "live": "https://github.com/rishabhl3116-a11y/network_vuln_scanner"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "aws-iam-keys-audit",
+      "description": "Learning project built with modern web technologies",
+      "longDescription": "Learning project built with modern web technologies",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Shell"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rishabhl3116-a11y/aws-iam-keys-audit",
+      "demo": "https://github.com/rishabhl3116-a11y/aws-iam-keys-audit",
+      "links": {
+        "github": "https://github.com/rishabhl3116-a11y/aws-iam-keys-audit",
+        "demo": "https://github.com/rishabhl3116-a11y/aws-iam-keys-audit",
+        "live": "https://github.com/rishabhl3116-a11y/aws-iam-keys-audit"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "ai_soc",
+      "description": "Practice repository for exploring advanced features",
+      "longDescription": "Practice repository for exploring advanced features",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "HTML",
+        "Shell",
+        "PowerShell",
+        "Dockerfile",
+        "JavaScript",
+        "Zeek",
+        "Batchfile"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#4ECDC4",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rishabhl3116-a11y/ai_soc",
+      "demo": "https://github.com/rishabhl3116-a11y/ai_soc",
+      "links": {
+        "github": "https://github.com/rishabhl3116-a11y/ai_soc",
+        "demo": "https://github.com/rishabhl3116-a11y/ai_soc",
+        "live": "https://github.com/rishabhl3116-a11y/ai_soc"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "siem-dashboard",
+      "description": "Personal project for exploring modern development practices",
+      "longDescription": "Personal project for exploring modern development practices",
+      "category": "Backend Development",
+      "technologies": [
+        "HTML",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "TypeScript"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#FFE66D",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rishabhl3116-a11y/siem-dashboard",
+      "demo": "https://github.com/rishabhl3116-a11y/siem-dashboard",
+      "links": {
+        "github": "https://github.com/rishabhl3116-a11y/siem-dashboard",
+        "demo": "https://github.com/rishabhl3116-a11y/siem-dashboard",
+        "live": "https://github.com/rishabhl3116-a11y/siem-dashboard"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "sentinel",
+      "description": "Portfolio project showcasing development capabilities",
+      "longDescription": "Portfolio project showcasing development capabilities",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rishabhl3116-a11y/sentinel",
+      "demo": "https://github.com/rishabhl3116-a11y/sentinel",
+      "links": {
+        "github": "https://github.com/rishabhl3116-a11y/sentinel",
+        "demo": "https://github.com/rishabhl3116-a11y/sentinel",
+        "live": "https://github.com/rishabhl3116-a11y/sentinel"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "soc-automation-lab",
+      "description": "Educational project for mastering software architecture",
+      "longDescription": "Educational project for mastering software architecture",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rishabhl3116-a11y/soc-automation-lab",
+      "demo": "https://github.com/rishabhl3116-a11y/soc-automation-lab",
+      "links": {
+        "github": "https://github.com/rishabhl3116-a11y/soc-automation-lab",
+        "demo": "https://github.com/rishabhl3116-a11y/soc-automation-lab",
+        "live": "https://github.com/rishabhl3116-a11y/soc-automation-lab"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    }
+  ]
+}

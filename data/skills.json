@@ -1,0 +1,46 @@
+{
+  "_instructions": "Organize your skills with vibrant colors.",
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "category": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "color": "#FF6B6B",
+      "skills": [
+        "Microsoft Excel (Advanced)",
+        "CaseWare IDEA",
+        "Alteryx",
+        "Power BI",
+        "QuickBooks",
+        "Tally",
+        "Zoho Books",
+        "Optro"
+      ]
+    },
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "color": "#4ECDC4",
+      "skills": [
+        "Financial Statement Audit",
+        "Internal Audit",
+        "Substantive Testing",
+        "Vouching",
+        "Control Testing",
+        "Risk-Based Testing",
+        "Audit Workpapers",
+        "Risk & Control Matrices",
+        "Account Reconciliations",
+        "Financial Statement Review",
+        "GAAP",
+        "Ind AS",
+        "Financial Reporting",
+        "Month-End Close",
+        "Variance Analysis",
+        "GST",
+        "TDS",
+        "Income Tax Compliance"
+      ]
+    }
+  ]
+}

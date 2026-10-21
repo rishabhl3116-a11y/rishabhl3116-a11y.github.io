@@ -1,0 +1,58 @@
+{
+  "_instructions": "Hero section content.",
+  "greeting": "Hi, I'm",
+  "name": "Rishabh Sharma",
+  "title": "Audit & Assurance | Internal Audit | Accounting & Taxation | Internal Controls | Risk & Compliance",
+  "summary": "Audit & Assurance | Internal Audit | Accounting & Taxation | Internal Controls | Risk & Compliance with 4+ years of experience specializing in Microsoft Excel (Advanced), CaseWare IDEA, Alteryx.",
+  "avatarUrl": "/avatar.png",
+  "tagline": "Audit & Assurance | Internal Audit | Accounting & Taxation | Internal Controls | Risk & Compliance",
+  "highlights": [
+    {
+      "icon": "fas fa-briefcase",
+      "text": "4+ Years Experience",
+      "color": "#FF6B6B"
+    },
+    {
+      "icon": "fas fa-project-diagram",
+      "text": "11+ Projects Completed",
+      "color": "#4ECDC4"
+    },
+    {
+      "icon": "fas fa-code",
+      "text": "Technical Expertise",
+      "color": "#FFE66D"
+    }
+  ],
+  "cta": {
+    "buttons": [
+      {
+        "text": "Get In Touch",
+        "href": "#contact",
+        "type": "primary",
+        "external": false
+      },
+      {
+        "text": "View My Work",
+        "href": "#projects",
+        "type": "secondary",
+        "external": false
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "platform": "LinkedIn",
+      "url": "linkedin.com/in/rishabh-sharma-8b2396168",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:Rishabhl3116@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ],
+  "scrollIndicator": {
+    "text": "Scroll to explore",
+    "icon": "fas fa-chevron-down"
+  }
+}

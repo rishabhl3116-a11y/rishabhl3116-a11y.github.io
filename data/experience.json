@@ -1,0 +1,58 @@
+{
+  "_instructions": "Add your work experience here. Copy the experience object for each job.",
+  "sectionTitle": "Professional Experience",
+  "experiences": [
+    {
+      "title": "Internal Audit Intern",
+      "company": "Illinois Housing Development Authority (IHDA)",
+      "period": "Jun 2026 – Aug 2026",
+      "location": "",
+      "description": "Supported risk-based internal audits across five departments (IT, Multifamily, Accounting, Finance and HR), performing control testing, evidence review and workpaper documentation. Tested the organization's AI copilot against governance requirements (access, data sharing, acceptable use, output reliability and bias metrics); documented exceptions with risk ratings, remediation timelines and management action items. Tested 15+ disbursements for approval, supporting documentation and correct coding, using sample-based control tests of 10+ items each. Evaluated Risk & Control Matrices (RCMs), acceptable-use policies and control effectiveness of software deployments; followed up with control owners on remediation of 3+ audit findings. Executed design and operating effectiveness testing across key financial statement assertions; documented audit trails and resolved 8 balance sheet reconciliation exceptions during fieldwork. Maintained the risk register in Optro (15+ risks tracked by rating, control owner and remediation status across business units); authored an Optro user manual to standardize audit procedures.",
+      "responsibilities": [
+        "Supported risk-based internal audits across five departments (IT, Multifamily, Accounting, Finance and HR), performing control testing, evidence review and workpaper documentation",
+        "Tested the organization's AI copilot against governance requirements (access, data sharing, acceptable use, output reliability and bias metrics); documented exceptions with risk ratings, remediation timelines and management action items",
+        "Tested 15+ disbursements for approval, supporting documentation and correct coding, using sample-based control tests of 10+ items each",
+        "Evaluated Risk & Control Matrices (RCMs), acceptable-use policies and control effectiveness of software deployments; followed up with control owners on remediation of 3+ audit findings",
+        "Executed design and operating effectiveness testing across key financial statement assertions; documented audit trails and resolved 8 balance sheet reconciliation exceptions during fieldwork",
+        "Maintained the risk register in Optro (15+ risks tracked by rating, control owner and remediation status across business units); authored an Optro user manual to standardize audit procedures"
+      ]
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "Nirved Ventures LLP",
+      "period": "Jul 2023 – Nov 2024",
+      "location": "",
+      "description": "Reviewed 500+ vendor invoices monthly for GST input-credit eligibility and coordinated tax reconciliations with external auditors. Performed subsequent disbursements testing on post-year-end expenditures exceeding INR 25 Cr+, verifying invoice dates and receiving logs to validate completeness of accrued liabilities and cutoff integrity. Prepared GST, TDS and income tax filings in Tally, Zoho Books and QuickBooks, maintaining supporting documentation for compliance reviews.",
+      "responsibilities": [
+        "Reviewed 500+ vendor invoices monthly for GST input-credit eligibility and coordinated tax reconciliations with external auditors",
+        "Performed subsequent disbursements testing on post-year-end expenditures exceeding INR 25 Cr+, verifying invoice dates and receiving logs to validate completeness of accrued liabilities and cutoff integrity",
+        "Prepared GST, TDS and income tax filings in Tally, Zoho Books and QuickBooks, maintaining supporting documentation for compliance reviews"
+      ]
+    },
+    {
+      "title": "Accounting Analyst",
+      "company": "Dilly Hardware Company",
+      "period": "Jun 2020 – Jul 2023",
+      "location": "",
+      "description": "Facilitated statutory audit PBC deliverables, performing balance sheet substantiation and multi-party debtor/creditor reconciliations across INR 50 Cr+ balances under Ind AS and Schedule III guidelines. Assisted engagement seniors with Standards on Auditing (SA 505) compliance, drafting external bank and vendor confirmation requests and resolving ledger-to-subledger reconciling differences. Reconciled purchase registers with GSTR-2B reports to verify Input Tax Credit (ITC) eligibility and ensure accurate period-end statutory tax accruals.",
+      "responsibilities": [
+        "Facilitated statutory audit PBC deliverables, performing balance sheet substantiation and multi-party debtor/creditor reconciliations across INR 50 Cr+ balances under Ind AS and Schedule III guidelines",
+        "Assisted engagement seniors with Standards on Auditing (SA 505) compliance, drafting external bank and vendor confirmation requests and resolving ledger-to-subledger reconciling differences",
+        "Reconciled purchase registers with GSTR-2B reports to verify Input Tax Credit (ITC) eligibility and ensure accurate period-end statutory tax accruals"
+      ]
+    },
+    {
+      "title": "Article Assistant (Audit), CA Articleship",
+      "company": "Jain Sharma & Company, Chartered Accountants",
+      "period": "Aug 2017 – Mar 2020",
+      "location": "",
+      "description": "Performed statutory, internal and tax audit procedures across 50 client engagements over 2.5+ years in FMCG, real estate, transportation, other services, professional practices (doctors, architects) and banking, including vouching, substantive testing and financial statement review. Prepared audit working papers supporting risk-based testing and account reconciliations; identified financial reporting exceptions. Engineered automated Alteryx workflows to perform full-population journal entry testing across 50,000+ ledger entries, isolating high-risk transactions, round-sum postings and weekend adjustments for senior review.",
+      "responsibilities": [
+        "Performed statutory, internal and tax audit procedures across 50 client engagements over 2",
+        "5+ years in FMCG, real estate, transportation, other services, professional practices (doctors, architects) and banking, including vouching, substantive testing and financial statement review",
+        "Prepared audit working papers supporting risk-based testing and account reconciliations; identified financial reporting exceptions",
+        "Engineered automated Alteryx workflows to perform full-population journal entry testing across 50,000+ ledger entries, isolating high-risk transactions, round-sum postings and weekend adjustments for senior review"
+      ]
+    }
+  ]
+}
