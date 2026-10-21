@@ -218,6 +218,11 @@ async function loadExperience() {
                     </div>
                     <div class="timeline-content">
                         <div class="experience-header">
+                            ${exp.logo ? `
+                                <div class="experience-logo"${exp.logoBg ? ` style="background: ${exp.logoBg}"` : ''}>
+                                    <img src="${exp.logo}" alt="${exp.company} logo" loading="lazy">
+                                </div>
+                            ` : ''}
                             <h3 class="experience-title">${exp.title}</h3>
                             <p class="experience-company">
                                 ${exp.company} ${exp.location ? `• ${exp.location}` : ''}
@@ -297,9 +302,15 @@ async function loadProjects() {
         if (projectsGrid && data.projects) {
             projectsGrid.innerHTML = data.projects.map(project => `
                 <div class="project-card">
-                    <div class="project-icon" style="background: ${project.color}">
-                        <i class="${project.icon}"></i>
-                    </div>
+                    ${project.image ? `
+                        <div class="project-thumb">
+                            <img src="${project.image}" alt="${project.title} thumbnail" loading="lazy">
+                        </div>
+                    ` : `
+                        <div class="project-icon" style="background: ${project.color}">
+                            <i class="${project.icon}"></i>
+                        </div>
+                    `}
                     <div class="project-header">
                         <h3 class="project-title">${project.title}</h3>
                     </div>
@@ -371,24 +382,6 @@ async function loadEducation() {
                             ${edu.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
                         </ul>
                     ` : ''}
-                </div>
-            `).join('');
-        }
-
-        // Set certifications title
-        document.getElementById('certifications-title').textContent = data.certificationsTitle;
-
-        // Render certifications
-        const certificationsGrid = document.getElementById('certifications-grid');
-        if (certificationsGrid && data.certifications) {
-            certificationsGrid.innerHTML = data.certifications.map(cert => `
-                <div class="certification-card">
-                    <div class="certification-icon" style="color: ${cert.color}">
-                        <i class="${cert.icon}"></i>
-                    </div>
-                    <h4 class="certification-title">${cert.title}</h4>
-                    <p class="certification-issuer">${cert.issuer}</p>
-                    <p class="certification-date">${cert.date}</p>
                 </div>
             `).join('');
         }
@@ -638,7 +631,7 @@ function initializeScrollEffects() {
 // Initialize Scroll Reveal Animation
 // ============================================
 function initializeScrollReveal() {
-    const revealElements = document.querySelectorAll('.section, .timeline-item, .skill-category, .project-card, .education-card, .certification-card');
+    const revealElements = document.querySelectorAll('.section, .timeline-item, .skill-category, .project-card, .education-card');
 
     const revealOnScroll = () => {
         revealElements.forEach(element => {

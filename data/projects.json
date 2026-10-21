@@ -6,13 +6,13 @@
       "title": "Financial Error Detection",
       "description": "Built automated audit tests to identify accounting errors, anomalies and irregularities in financial data.",
       "longDescription": "Built automated audit tests to identify accounting errors, anomalies and irregularities in financial data.",
-      "category": "Software Development",
+      "category": "Audit Analytics",
       "technologies": [
         "CaseWare IDEA"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#FF6B6B",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/images/projects/financial-error-detection.svg",
       "featured": true,
       "github": "",
       "demo": "",
@@ -30,11 +30,14 @@
       "title": "SEC Financial Statement Analysis",
       "description": "Performed comparative financial statement analysis of consumer discretionary companies.",
       "longDescription": "Performed comparative financial statement analysis of consumer discretionary companies.",
-      "category": "Development",
-      "technologies": [],
+      "category": "Financial Analysis",
+      "technologies": [
+        "SEC Filings",
+        "Excel"
+      ],
       "icon": "fas fa-project-diagram",
       "color": "#4ECDC4",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/images/projects/sec-financial-analysis.svg",
       "featured": false,
       "github": "",
       "demo": "",
@@ -49,22 +52,23 @@
       }
     },
     {
-      "title": "threathound",
-      "description": "Interactive application built for continuous learning",
-      "longDescription": "Interactive application built for continuous learning",
-      "category": "Backend Development",
+      "title": "ThreatHound",
+      "description": "Threat hunting and compromise assessment for Windows event logs, applying 2,300+ Sigma detection rules with CSV output and search.",
+      "longDescription": "Threat hunting and compromise assessment for Windows event logs, applying 2,300+ Sigma detection rules with CSV output and search.",
+      "category": "Security Analytics",
       "technologies": [
-        "Python"
+        "Python",
+        "Sigma"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#FFE66D",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/images/projects/threathound.svg",
       "featured": false,
       "github": "https://github.com/rishabhl3116-a11y/threathound",
       "demo": "https://github.com/rishabhl3116-a11y/threathound",
       "links": {
         "github": "https://github.com/rishabhl3116-a11y/threathound",
-        "demo": "https://github.com/rishabhl3116-a11y/threathound",
+        "demo": "",
         "live": "https://github.com/rishabhl3116-a11y/threathound"
       },
       "stats": {
@@ -73,22 +77,25 @@
       }
     },
     {
-      "title": "config-rule-inspec-cis-audit-lambda",
-      "description": "Interactive application built for continuous learning",
-      "longDescription": "Interactive application built for continuous learning",
-      "category": "Backend Development",
+      "title": "CIS Compliance Config Rule",
+      "description": "Custom AWS Config rule that runs Chef InSpec CIS benchmark audits through Systems Manager to monitor OS compliance.",
+      "longDescription": "Custom AWS Config rule that runs Chef InSpec CIS benchmark audits through Systems Manager to monitor OS compliance.",
+      "category": "IT Audit & Compliance",
       "technologies": [
-        "Python"
+        "Python",
+        "AWS Config",
+        "Systems Manager",
+        "InSpec"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#A8DADC",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/images/projects/cis-config-rule.svg",
       "featured": false,
       "github": "https://github.com/rishabhl3116-a11y/config-rule-inspec-cis-audit-lambda",
       "demo": "https://github.com/rishabhl3116-a11y/config-rule-inspec-cis-audit-lambda",
       "links": {
         "github": "https://github.com/rishabhl3116-a11y/config-rule-inspec-cis-audit-lambda",
-        "demo": "https://github.com/rishabhl3116-a11y/config-rule-inspec-cis-audit-lambda",
+        "demo": "",
         "live": "https://github.com/rishabhl3116-a11y/config-rule-inspec-cis-audit-lambda"
       },
       "stats": {
@@ -97,25 +104,25 @@
       }
     },
     {
-      "title": "aws-iam-auditing",
-      "description": "Educational project for mastering software architecture",
-      "longDescription": "Educational project for mastering software architecture",
-      "category": "Backend Development",
+      "title": "AWS IAM Auditing",
+      "description": "Collects the IAM credential report from every active AWS Organizations account and emails a consolidated access-review report.",
+      "longDescription": "Collects the IAM credential report from every active AWS Organizations account and emails a consolidated access-review report.",
+      "category": "IT Audit & Compliance",
       "technologies": [
         "Python",
-        "HTML",
-        "Makefile",
-        "Dockerfile"
+        "AWS IAM",
+        "Jinja2",
+        "Docker"
       ],
       "icon": "fas fa-brain",
       "color": "#B19CD9",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/images/projects/aws-iam-auditing.svg",
       "featured": false,
       "github": "https://github.com/rishabhl3116-a11y/aws-iam-auditing",
       "demo": "https://github.com/rishabhl3116-a11y/aws-iam-auditing",
       "links": {
         "github": "https://github.com/rishabhl3116-a11y/aws-iam-auditing",
-        "demo": "https://github.com/rishabhl3116-a11y/aws-iam-auditing",
+        "demo": "",
         "live": "https://github.com/rishabhl3116-a11y/aws-iam-auditing"
       },
       "stats": {
@@ -124,22 +131,24 @@
       }
     },
     {
-      "title": "network_vuln_scanner",
-      "description": "Portfolio project showcasing development capabilities",
-      "longDescription": "Portfolio project showcasing development capabilities",
-      "category": "Backend Development",
+      "title": "Network Vulnerability Scanner",
+      "description": "Scans hosts for open ports, grabs service banners and checks them against known exploits in Exploit-DB, saving results as JSON.",
+      "longDescription": "Scans hosts for open ports, grabs service banners and checks them against known exploits in Exploit-DB, saving results as JSON.",
+      "category": "Security Assessment",
       "technologies": [
-        "Python"
+        "Python",
+        "nmap",
+        "BeautifulSoup"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#FF8B94",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/images/projects/network-vuln-scanner.svg",
       "featured": false,
       "github": "https://github.com/rishabhl3116-a11y/network_vuln_scanner",
       "demo": "https://github.com/rishabhl3116-a11y/network_vuln_scanner",
       "links": {
         "github": "https://github.com/rishabhl3116-a11y/network_vuln_scanner",
-        "demo": "https://github.com/rishabhl3116-a11y/network_vuln_scanner",
+        "demo": "",
         "live": "https://github.com/rishabhl3116-a11y/network_vuln_scanner"
       },
       "stats": {
@@ -148,23 +157,25 @@
       }
     },
     {
-      "title": "aws-iam-keys-audit",
-      "description": "Learning project built with modern web technologies",
-      "longDescription": "Learning project built with modern web technologies",
-      "category": "Backend Development",
+      "title": "AWS IAM Access Keys Audit",
+      "description": "Lambda that ages out IAM access keys: deactivates keys past the max age, deletes them after a waiting period, and reports every action via SNS.",
+      "longDescription": "Lambda that ages out IAM access keys: deactivates keys past the max age, deletes them after a waiting period, and reports every action via SNS.",
+      "category": "IT Audit & Compliance",
       "technologies": [
         "Python",
-        "Shell"
+        "AWS Lambda",
+        "CloudFormation",
+        "SNS"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#FF6B6B",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/images/projects/aws-iam-keys-audit.svg",
       "featured": false,
       "github": "https://github.com/rishabhl3116-a11y/aws-iam-keys-audit",
       "demo": "https://github.com/rishabhl3116-a11y/aws-iam-keys-audit",
       "links": {
         "github": "https://github.com/rishabhl3116-a11y/aws-iam-keys-audit",
-        "demo": "https://github.com/rishabhl3116-a11y/aws-iam-keys-audit",
+        "demo": "",
         "live": "https://github.com/rishabhl3116-a11y/aws-iam-keys-audit"
       },
       "stats": {
@@ -173,29 +184,25 @@
       }
     },
     {
-      "title": "ai_soc",
-      "description": "Practice repository for exploring advanced features",
-      "longDescription": "Practice repository for exploring advanced features",
-      "category": "Backend Development",
+      "title": "AI-SOC",
+      "description": "Local security operations platform with event ingestion, AI-assisted triage, incident correlation, analyst review and role-based access.",
+      "longDescription": "Local security operations platform with event ingestion, AI-assisted triage, incident correlation, analyst review and role-based access.",
+      "category": "Security Operations",
       "technologies": [
         "Python",
-        "HTML",
-        "Shell",
-        "PowerShell",
-        "Dockerfile",
-        "JavaScript",
-        "Zeek",
-        "Batchfile"
+        "Docker",
+        "Ollama",
+        "PostgreSQL"
       ],
       "icon": "fas fa-brain",
       "color": "#4ECDC4",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/images/projects/ai-soc.svg",
       "featured": false,
       "github": "https://github.com/rishabhl3116-a11y/ai_soc",
       "demo": "https://github.com/rishabhl3116-a11y/ai_soc",
       "links": {
         "github": "https://github.com/rishabhl3116-a11y/ai_soc",
-        "demo": "https://github.com/rishabhl3116-a11y/ai_soc",
+        "demo": "",
         "live": "https://github.com/rishabhl3116-a11y/ai_soc"
       },
       "stats": {
@@ -204,26 +211,25 @@
       }
     },
     {
-      "title": "siem-dashboard",
-      "description": "Personal project for exploring modern development practices",
-      "longDescription": "Personal project for exploring modern development practices",
-      "category": "Backend Development",
+      "title": "SIEM Dashboard",
+      "description": "Security event dashboard that visualizes access logs and threat levels, with Geo-IP blocking and salted-hash authentication.",
+      "longDescription": "Security event dashboard that visualizes access logs and threat levels, with Geo-IP blocking and salted-hash authentication.",
+      "category": "Security Monitoring",
       "technologies": [
-        "HTML",
-        "JavaScript",
-        "CSS",
         "Python",
-        "TypeScript"
+        "Flask",
+        "JavaScript",
+        "Chart.js"
       ],
       "icon": "fas fa-brain",
       "color": "#FFE66D",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/images/projects/siem-dashboard.svg",
       "featured": false,
       "github": "https://github.com/rishabhl3116-a11y/siem-dashboard",
       "demo": "https://github.com/rishabhl3116-a11y/siem-dashboard",
       "links": {
         "github": "https://github.com/rishabhl3116-a11y/siem-dashboard",
-        "demo": "https://github.com/rishabhl3116-a11y/siem-dashboard",
+        "demo": "",
         "live": "https://github.com/rishabhl3116-a11y/siem-dashboard"
       },
       "stats": {
@@ -232,23 +238,24 @@
       }
     },
     {
-      "title": "sentinel",
-      "description": "Portfolio project showcasing development capabilities",
-      "longDescription": "Portfolio project showcasing development capabilities",
-      "category": "Backend Development",
+      "title": "Sentinel",
+      "description": "Log-analytics pipeline with MITRE ATT&CK-mapped rules and ML anomaly detection, scoring detection precision and recall against labeled ground truth.",
+      "longDescription": "Log-analytics pipeline with MITRE ATT&CK-mapped rules and ML anomaly detection, scoring detection precision and recall against labeled ground truth.",
+      "category": "Security Analytics",
       "technologies": [
         "Python",
-        "Dockerfile"
+        "Streamlit",
+        "scikit-learn"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#A8DADC",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/images/projects/sentinel.svg",
       "featured": false,
       "github": "https://github.com/rishabhl3116-a11y/sentinel",
       "demo": "https://github.com/rishabhl3116-a11y/sentinel",
       "links": {
         "github": "https://github.com/rishabhl3116-a11y/sentinel",
-        "demo": "https://github.com/rishabhl3116-a11y/sentinel",
+        "demo": "",
         "live": "https://github.com/rishabhl3116-a11y/sentinel"
       },
       "stats": {
@@ -257,20 +264,25 @@
       }
     },
     {
-      "title": "soc-automation-lab",
-      "description": "Educational project for mastering software architecture",
-      "longDescription": "Educational project for mastering software architecture",
-      "category": "Development",
-      "technologies": [],
+      "title": "SOC Automation Lab",
+      "description": "Automated detection, case management and alert enrichment workflow built on Wazuh, TheHive and Shuffle.",
+      "longDescription": "Automated detection, case management and alert enrichment workflow built on Wazuh, TheHive and Shuffle.",
+      "category": "Security Operations",
+      "technologies": [
+        "Wazuh",
+        "TheHive",
+        "Shuffle",
+        "VirusTotal"
+      ],
       "icon": "fas fa-project-diagram",
       "color": "#B19CD9",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/images/projects/soc-automation-lab.svg",
       "featured": false,
       "github": "https://github.com/rishabhl3116-a11y/soc-automation-lab",
       "demo": "https://github.com/rishabhl3116-a11y/soc-automation-lab",
       "links": {
         "github": "https://github.com/rishabhl3116-a11y/soc-automation-lab",
-        "demo": "https://github.com/rishabhl3116-a11y/soc-automation-lab",
+        "demo": "",
         "live": "https://github.com/rishabhl3116-a11y/soc-automation-lab"
       },
       "stats": {

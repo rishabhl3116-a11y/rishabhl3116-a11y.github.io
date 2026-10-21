@@ -1,10 +1,9 @@
 {
-  "_instructions": "Add your education and certifications here.",
-  "sectionTitle": "Education & Certifications",
-  "certificationsTitle": "Certifications",
+  "_instructions": "Add your education here.",
+  "sectionTitle": "Education",
   "education": [
     {
-      "degree": "Master of Science",
+      "degree": "Master of Science in Audit & Advisory Services",
       "school": "DePaul University, Chicago, IL",
       "institution": "DePaul University, Chicago, IL",
       "period": "Jan 2025 – Jan 2027 (expected)",
@@ -27,6 +26,5 @@
       "details": "",
       "description": ""
     }
-  ],
-  "certifications": []
+  ]
 }

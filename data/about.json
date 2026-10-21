@@ -26,9 +26,9 @@
       "color": "#FFE66D"
     },
     {
-      "icon": "fas fa-award",
-      "value": "0+",
-      "label": "Certifications",
+      "icon": "fas fa-file-invoice-dollar",
+      "value": "50",
+      "label": "Audit Engagements",
       "color": "#A8DADC"
     }
   ],
