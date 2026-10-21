@@ -105,6 +105,17 @@ async function loadHero() {
         document.getElementById('hero-tagline').textContent = data.tagline;
         document.getElementById('hero-summary').textContent = data.summary;
 
+        // Headshot + badge
+        const photo = document.getElementById('hero-photo');
+        if (photo && data.avatarUrl) {
+            photo.src = data.avatarUrl;
+            photo.alt = data.name;
+        }
+        const badge = document.getElementById('hero-badge');
+        if (badge) {
+            badge.innerHTML = data.badgeIcon ? `<i class="${data.badgeIcon}"></i>` : '';
+        }
+
         // Render highlights
         const highlightsContainer = document.getElementById('hero-highlights');
         if (highlightsContainer && data.highlights) {

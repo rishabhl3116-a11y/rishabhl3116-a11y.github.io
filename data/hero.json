@@ -2,10 +2,10 @@
   "_instructions": "Hero section content.",
   "greeting": "Hi, I'm",
   "name": "Rishabh Sharma",
-  "title": "Audit & Assurance | Internal Audit | Accounting & Taxation | Internal Controls | Risk & Compliance",
-  "summary": "Audit & Assurance | Internal Audit | Accounting & Taxation | Internal Controls | Risk & Compliance with 4+ years of experience specializing in Microsoft Excel (Advanced), CaseWare IDEA, Alteryx.",
-  "avatarUrl": "/avatar.png",
-  "tagline": "Audit & Assurance | Internal Audit | Accounting & Taxation | Internal Controls | Risk & Compliance",
+  "title": "Audit & Assurance · Internal Audit",
+  "summary": "Audit and accounting professional with 2.5+ years of financial statement audit experience and 4+ years in GAAP accounting and tax compliance. I test controls, build risk-based workpapers and run full-population analytics in Alteryx, CaseWare IDEA and Excel, and I'm completing an M.S. in Audit & Advisory Services at DePaul University.",
+  "avatarUrl": "assets/images/rishabh-headshot.jpg",
+  "tagline": "Internal Controls • Risk & Compliance • Accounting & Taxation • Audit Analytics",
   "highlights": [
     {
       "icon": "fas fa-briefcase",
@@ -18,8 +18,8 @@
       "color": "#4ECDC4"
     },
     {
-      "icon": "fas fa-code",
-      "text": "Technical Expertise",
+      "icon": "fas fa-chart-line",
+      "text": "Excel · IDEA · Alteryx",
       "color": "#FFE66D"
     }
   ],
@@ -42,7 +42,7 @@
   "socialLinks": [
     {
       "platform": "LinkedIn",
-      "url": "linkedin.com/in/rishabh-sharma-8b2396168",
+      "url": "https://www.linkedin.com/in/rishabh-sharma-8b2396168",
       "icon": "fab fa-linkedin"
     },
     {
@@ -54,5 +54,6 @@
   "scrollIndicator": {
     "text": "Scroll to explore",
     "icon": "fas fa-chevron-down"
-  }
+  },
+  "badgeIcon": "fas fa-clipboard-check"
 }
