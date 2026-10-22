@@ -22,7 +22,6 @@ async function initializeApp() {
             loadAbout(),
             loadExperience(),
             loadSkills(),
-            loadProjects(),
             loadEducation(),
             loadContact(),
             loadFooter()
@@ -294,74 +293,6 @@ async function loadSkills() {
         }
     } catch (error) {
         console.error('Error loading skills section:', error);
-    }
-}
-
-// ============================================
-// Load Projects Section
-// ============================================
-async function loadProjects() {
-    try {
-        const response = await fetch('data/projects.json');
-        const data = await response.json();
-
-        // Set section title
-        document.getElementById('projects-title').textContent = data.sectionTitle;
-
-        // Render projects
-        const projectsGrid = document.getElementById('projects-grid');
-        if (projectsGrid && data.projects) {
-            projectsGrid.innerHTML = data.projects.map(project => `
-                <div class="project-card">
-                    ${project.image ? `
-                        <div class="project-thumb">
-                            <img src="${project.image}" alt="${project.title} thumbnail" loading="lazy">
-                        </div>
-                    ` : `
-                        <div class="project-icon" style="background: ${project.color}">
-                            <i class="${project.icon}"></i>
-                        </div>
-                    `}
-                    <div class="project-header">
-                        <h3 class="project-title">${project.title}</h3>
-                    </div>
-                    <p class="project-description">${project.description}</p>
-                    ${project.technologies ? `
-                        <div class="project-tech">
-                            ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
-                        </div>
-                    ` : ''}
-                    ${project.links ? `
-                        <div class="project-links">
-                            ${project.links.github ? `
-                                <a href="${project.links.github}" target="_blank" rel="noopener noreferrer" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    Code
-                                </a>
-                            ` : ''}
-                            ${project.links.demo ? `
-                                <a href="${project.links.demo}" target="_blank" rel="noopener noreferrer" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    Live Demo
-                                </a>
-                            ` : ''}
-                        </div>
-                    ` : ''}
-                    ${project.stats ? `
-                        <div class="project-stats">
-                            ${Object.entries(project.stats).map(([key, value]) => `
-                                <div class="project-stat">
-                                    <span class="project-stat-value">${value}</span>
-                                    <span class="project-stat-label">${key}</span>
-                                </div>
-                            `).join('')}
-                        </div>
-                    ` : ''}
-                </div>
-            `).join('');
-        }
-    } catch (error) {
-        console.error('Error loading projects section:', error);
     }
 }
 
@@ -642,7 +573,7 @@ function initializeScrollEffects() {
 // Initialize Scroll Reveal Animation
 // ============================================
 function initializeScrollReveal() {
-    const revealElements = document.querySelectorAll('.section, .timeline-item, .skill-category, .project-card, .education-card');
+    const revealElements = document.querySelectorAll('.section, .timeline-item, .skill-category, .education-card');
 
     const revealOnScroll = () => {
         revealElements.forEach(element => {

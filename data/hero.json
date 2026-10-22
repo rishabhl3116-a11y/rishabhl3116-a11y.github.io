@@ -13,8 +13,8 @@
       "color": "#FF6B6B"
     },
     {
-      "icon": "fas fa-project-diagram",
-      "text": "11+ Projects Completed",
+      "icon": "fas fa-file-invoice-dollar",
+      "text": "50 Client Audit Engagements",
       "color": "#4ECDC4"
     },
     {
@@ -32,8 +32,8 @@
         "external": false
       },
       {
-        "text": "View My Work",
-        "href": "#projects",
+        "text": "View Experience",
+        "href": "#experience",
         "type": "secondary",
         "external": false
       }

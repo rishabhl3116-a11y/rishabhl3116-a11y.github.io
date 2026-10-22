@@ -8,9 +8,9 @@
   ],
   "statistics": [
     {
-      "icon": "fas fa-project-diagram",
-      "value": "11+",
-      "label": "Projects Completed",
+      "icon": "fas fa-magnifying-glass-dollar",
+      "value": "50,000+",
+      "label": "Ledger Entries Tested",
       "color": "#FF6B6B"
     },
     {
@@ -20,9 +20,9 @@
       "color": "#4ECDC4"
     },
     {
-      "icon": "fas fa-code",
+      "icon": "fas fa-toolbox",
       "value": "26+",
-      "label": "Technologies",
+      "label": "Skills & Tools",
       "color": "#FFE66D"
     },
     {

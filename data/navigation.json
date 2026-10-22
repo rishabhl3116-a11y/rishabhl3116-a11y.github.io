@@ -26,11 +26,6 @@
       "icon": "fas fa-code"
     },
     {
-      "text": "Projects",
-      "href": "#projects",
-      "icon": "fas fa-rocket"
-    },
-    {
       "text": "Education",
       "href": "#education",
       "icon": "fas fa-graduation-cap"
